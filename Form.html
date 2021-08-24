@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<title>Employee Contact form</title>
+<meta charset = "utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href= "form.css">
+<script src="jquery.js"></script>
+<script src="form.js"></script>
+
+</head>
+
+<body>
+
+<button class = "btn">Print Form</button>
+<br><h2><u>Employee Contact Form</u></h2> 
+<form id = "myfrm">
+<label id = "lbl" for = "cn"><b>Company Name:</b></label>
+<input type = "text" id = "cn" autofocus><br><br><br>
+<hr>
+<h2 id = "h2">Contact information</h2>
+    <div>
+        <label class = "li" for = "date">Date:</label>
+        <input type = "text" class = "li" id = "date" name = "date"><br>
+        <label class = "li" for = "emp">Employee Name:</label>
+        <input type = "text" class = "li" id = "emp" name = "emp"><br>
+        <label class = "li" for = "add"> Address:</label>
+        <input type = "text" class = "li" id = "add" name = "add"><br>
+        <label class = "li" for = "stat">State/Province:</label>
+        <input type = "text" class = "li" id = "stat" name = "stat"><br>
+        <label class = "li" for = "zip"> Zip/Postal Code:</label>
+        <input type = "text"  class = "li" id = "zip" name = "zip"><br>
+        <label class = "li" for = "ss"> SS Number:</label>
+        <input type = "text"  class = "li" id = "ss" name = "ss"><br>
+        <label class = "li" for = "hp">Home Phone:</label>
+        <input type = "text"  class = "li" id = "hp" name = "hp"><br>
+        <label class = "li" for = "cp">Cell phone:</label>
+        <input type = "text"  class = "li" id = "cp" name = "cp"><br>
+        <label class = "li" for = "ec">Emergency Contact:</label>
+        <input type = "text"  class = "li" id = "ec" name = "ec"><br>
+        <label class = "li" for = "ep">Emergency Phone:</label>
+        <input type = "text"  class = "li" id = "ep" name = "ep"><br><br>
+        <textarea id = "comment" placeholder="Comments:"></textarea><br>
+        <br><br>
+    
+        <input type = "submit" value="Submit" id = "submit" onclick="f()">
+        
+        
+    
+    </div>
+</form>
+
+</body>
+</html>
+
+    

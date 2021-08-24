@@ -1,0 +1,72 @@
+body {
+        margin: 2%;
+}
+.btn {
+    width: 100px; 
+    border-color: black;
+    float: right;
+    padding: 4px;
+}
+#h2 {
+        color: grey;
+ }
+
+ .input {
+        margin-top: 10px;
+        margin-right: 20px;
+             
+}
+ .li {
+        margin: 8px;
+ }
+ label { 
+        display: inline-block;
+        width: 150px;
+        font-weight: 900;
+ }  
+ #lbl { 
+       color: orange;
+       display: inline;
+ }
+ #comment {
+            height: 150px;
+            width: 350px;
+            resize: none;
+            margin-right: 20px;
+ }
+ 
+@media only screen and (max-width: 420px) {
+    #comment {
+                position: relative;
+                width: 100%;
+        
+            }
+    }
+    @media only screen and (max-width: 420px) {
+        div input {
+                        width: 100%;
+            
+                }
+        }
+        @media only screen and (max-width: 420px) {
+                div {
+                                
+                                padding-right: 8%;
+                    
+                        }
+                }                
+#submit:hover {
+        background-color: blue;
+        color: whitesmoke;
+        
+}
+#submit {
+        margin-bottom: 15px;
+        padding: 5px;
+        width:100px;
+}
+hr {
+        height:2px;border-width:0;color:gray;background-color:gray;
+}
+
+
